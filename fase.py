@@ -21,7 +21,7 @@ class Ponto():
         return hash(self.x) ^ hash(self.y)
 
     def __repr__(self, *args, **kwargs):
-        return "Ponto(%s,%s,'%s')" % (self.x, self.y, self.caracter)
+        return "Ponto(%s, %s,'%s')" % (self.x, self.y, self.caracter)
 
 
 class Fase():
