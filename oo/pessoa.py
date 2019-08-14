@@ -38,11 +38,13 @@ if __name__ == '__main__':
     del luciano.olhos
     print(luciano.__dict__)
     print(renzo.__dict__)
+    print(Pessoa.olhos)
     print(luciano.olhos)
     print(renzo.olhos)
     print(id(Pessoa.olhos),id(luciano.olhos),id(renzo.olhos))
     print(Pessoa.metodo_estatico(), luciano.metodo_estatico())
     print(Pessoa.nome_e_atributos_de_class(), luciano.nome_e_atributos_de_class())
+    pessoa = Pessoa('Anomimo')
     print(isinstance(pessoa,Pessoa))
     print(isinstance(pessoa, Homem))
     #pessoa2 = Homem('Anonimo2')
