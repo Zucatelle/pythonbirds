@@ -18,9 +18,9 @@ class Pessoa:
 
 class Homem(Pessoa):
     def cumprimentar(self):
-        cumprimentar_da_classe = super().cumprimentar()
-        return f'{cumprimentar_da_classe}. Aperto de mão'
-
+        #cumprimentar_da_classe = super().cumprimentar()
+        #return f'{cumprimentar_da_classe}. Aperto de mão'
+        return f'{super().cumprimentar()}. Aperto de mão'
 
 class Mutante(Pessoa):
     olhos = 3
